@@ -1,5 +1,5 @@
-Package: BuildABiocWorkshop
-Title: Bioconductor Workshop Template and Github Actions
+Package: demo
+Title: demo
 Version: 0.9.0
 Authors@R: 
     person(given = "Sean",
@@ -7,10 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "seandavi@gmail.com",
            comment = c(ORCID = "your-orc-id-here"))
-Description: This package serves as a template for using github actions to 
-    prepare a Bioconductor Workshop package for use. In particular,
-    a pkgdown website and docker image are generated based on workflow 
-    settings. 
+Description: demo
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -22,7 +19,7 @@ Suggests:
     knitr,
     rmarkdown,
     pkgdown
-URL: https://seandavi.github.io/BuildABiocWorkshop/
+URL: https://singha53.github.io/demo/
 BugReports: https://github.com/seandavi/BuildABiocWorkshop/issues/new/choose
 VignetteBuilder: knitr
-DockerImage: seandavi/buildabiocworkshop:latest
+DockerImage: singha53/demo
