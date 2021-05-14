@@ -20,6 +20,6 @@ Suggests:
     rmarkdown,
     pkgdown
 URL: https://singha53.github.io/demo/
-BugReports: https://github.com/seandavi/BuildABiocWorkshop/issues/new/choose
+BugReports: https://github.com/singha53.github.io/demo/issues/new/choose
 VignetteBuilder: knitr
 DockerImage: singha53/demo
